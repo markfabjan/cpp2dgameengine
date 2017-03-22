@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="engine_000" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/engine_000" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="header" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/engine_000" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add directory="header" />
+		</Compiler>
+		<Linker>
+			<Add library="SDL2" />
+			<Add library="SDL2_image" />
+			<Add directory="header" />
+		</Linker>
+		<Unit filename="assets/environment.png" />
+		<Unit filename="assets/player.png" />
+		<Unit filename="header/animatedSprite.h" />
+		<Unit filename="header/cursor.h" />
+		<Unit filename="header/game.h" />
+		<Unit filename="header/globals.h" />
+		<Unit filename="header/graphics.h" />
+		<Unit filename="header/input.h" />
+		<Unit filename="header/player.h" />
+		<Unit filename="header/sprite.h" />
+		<Unit filename="src/animatedSprite.cpp" />
+		<Unit filename="src/cursor.cpp" />
+		<Unit filename="src/game.cpp" />
+		<Unit filename="src/graphics.cpp" />
+		<Unit filename="src/input.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/player.cpp" />
+		<Unit filename="src/sprite.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

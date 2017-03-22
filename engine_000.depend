@@ -1,0 +1,149 @@
+# depslib dependency file v1.0
+1477212496 source:/home/fun/CPP/engine_000/engine_000.cpp
+	<iostream>
+	<SDL2/SDL.h>
+
+1477820507 source:/home/fun/CPP/engine_000/src/graphics.cpp
+	"graphics.h"
+	"globals.h"
+
+1477820458 /home/fun/CPP/engine_000/header/graphics.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<map>
+	<string>
+
+1477818177 source:/home/fun/CPP/engine_000/src/main.cpp
+	<iostream>
+	"game.h"
+
+1478255582 source:/home/fun/CPP/engine_000/src/game.cpp
+	<SDL2/SDL.h>
+	"graphics.h"
+	"game.h"
+	"input.h"
+	<iostream>
+	"globals.h"
+
+1478254107 /home/fun/CPP/engine_000/header/game.h
+	"player.h"
+	"cursor.h"
+
+1478173767 /home/fun/CPP/engine_000/header/input.h
+	<SDL2/SDL.h>
+	<map>
+
+1478173793 source:/home/fun/CPP/engine_000/src/input.cpp
+	"input.h"
+
+1478173624 /home/fun/CPP/engine_000/header/sprite.h
+	<SDL2/SDL.h>
+	<string>
+
+1478173624 source:/home/fun/CPP/engine_000/src/sprite.cpp
+	"sprite.h"
+	"graphics.h"
+	"globals.h"
+
+1478255091 /home/fun/CPP/engine_000/header/globals.h
+	<math.h>
+
+1477823162 /home/fun/CPP/engine_000/header/animatedSprite.h
+	<map>
+	<string>
+	<vector>
+	"sprite.h"
+	"globals.h"
+
+1477818545 source:/home/fun/CPP/engine_000/src/animatedSprite.cpp
+	"animatedSprite.h"
+	"graphics.h"
+	"sprite.h"
+	"globals.h"
+
+1477821309 /home/fun/CPP/engine_000/header/player.h
+	"animatedSprite.h"
+	"globals.h"
+
+1478173517 source:/home/fun/CPP/engine_000/src/player.cpp
+	"graphics.h"
+	"player.h"
+
+1478255427 /home/fun/CPP/engine_000/header/cursor.h
+	"sprite.h"
+	"globals.h"
+
+1478254468 source:/home/fun/CPP/engine_000/src/cursor.cpp
+	"graphics.h"
+	"cursor.h"
+
+1477818545 source:/media/tc4002bp/DATA/000_dev/cpp/engine_000/src/animatedSprite.cpp
+	"animatedSprite.h"
+	"graphics.h"
+	"sprite.h"
+	"globals.h"
+
+1477823162 /media/tc4002bp/DATA/000_dev/cpp/engine_000/header/animatedSprite.h
+	<map>
+	<string>
+	<vector>
+	"sprite.h"
+	"globals.h"
+
+1478173624 /media/tc4002bp/DATA/000_dev/cpp/engine_000/header/sprite.h
+	<SDL2/SDL.h>
+	<string>
+
+1478255091 /media/tc4002bp/DATA/000_dev/cpp/engine_000/header/globals.h
+	<math.h>
+
+1477820458 /media/tc4002bp/DATA/000_dev/cpp/engine_000/header/graphics.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<map>
+	<string>
+
+1478254468 source:/media/tc4002bp/DATA/000_dev/cpp/engine_000/src/cursor.cpp
+	"graphics.h"
+	"cursor.h"
+
+1478255427 /media/tc4002bp/DATA/000_dev/cpp/engine_000/header/cursor.h
+	"sprite.h"
+	"globals.h"
+
+1478255582 source:/media/tc4002bp/DATA/000_dev/cpp/engine_000/src/game.cpp
+	<SDL2/SDL.h>
+	"graphics.h"
+	"game.h"
+	"input.h"
+	<iostream>
+	"globals.h"
+
+1478254107 /media/tc4002bp/DATA/000_dev/cpp/engine_000/header/game.h
+	"player.h"
+	"cursor.h"
+
+1477821309 /media/tc4002bp/DATA/000_dev/cpp/engine_000/header/player.h
+	"animatedSprite.h"
+	"globals.h"
+
+1478173767 /media/tc4002bp/DATA/000_dev/cpp/engine_000/header/input.h
+	<SDL2/SDL.h>
+	<map>
+
+1478173793 source:/media/tc4002bp/DATA/000_dev/cpp/engine_000/src/input.cpp
+	"input.h"
+
+1477818177 source:/media/tc4002bp/DATA/000_dev/cpp/engine_000/src/main.cpp
+	<iostream>
+	"game.h"
+
+1478289369 source:/media/tc4002bp/DATA/000_dev/cpp/engine_000/src/player.cpp
+	"graphics.h"
+	"player.h"
+
+1478173624 source:/media/tc4002bp/DATA/000_dev/cpp/engine_000/src/sprite.cpp
+	"sprite.h"
+	"graphics.h"
+	"globals.h"
+
